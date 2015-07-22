@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+
+    <style name="FlashFocusActionBar"
+           parent= "@android:style/Theme.Holo.Light" >
+        <item name = "android:actionBarStyle">@style/FlashFocusActionBarAttributes</item>
+    </style>
+
+    <style name = "FlashFocusActionBarAttributes"
+           parent = "@android:style/Widget.Holo.Light.ActionBar" >
+        <item name = "android:background">#fffcff8d</item>
+    </style>
+
+
+
+</resources>

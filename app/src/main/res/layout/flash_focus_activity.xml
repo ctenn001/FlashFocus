@@ -1,0 +1,50 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/appbackground">
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical"  >
+
+
+
+
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/NewCardSetButton"
+                android:layout_marginTop="20dp"
+                android:text = "Create New Card Set"
+                android:padding="12dp"
+                android:textColor="#ff20661d"
+                android:background="@color/buttoncolor"
+                android:textSize="12dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <ListView android:id="@+id/left_drawer"
+              android:layout_width="240dp"
+              android:layout_height="match_parent"
+              android:layout_gravity="start"
+              android:choiceMode="singleChoice"
+              android:divider="@color/black"
+              android:dividerHeight="1dp"
+              android:background="@color/buttoncolor"
+                />
+</android.support.v4.widget.DrawerLayout>
